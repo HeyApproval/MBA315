@@ -368,7 +368,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance = new lib.HEAD1();
-	this.instance.setTransform(149.4,158.05);
+	this.instance.setTransform(149.4,328,1.29,1.29);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
@@ -376,7 +376,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2
 	this.instance_1 = new lib.HEAD2();
-	this.instance_1.setTransform(149.4,158.05);
+	this.instance_1.setTransform(149.4,328,1.29,1.29);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
@@ -384,7 +384,7 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_2 = new lib.CTA();
-	this.instance_2.setTransform(150,454.25,1.25,1.25,0,0,0,-0.2,0.3);
+	this.instance_2.setTransform(150,464.25,1.25,1.25,0,0,0,-0.2,0.3);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71).to({_off:false},0).wait(4));
@@ -410,16 +410,16 @@ if (reversed == null) { reversed = false; }
 
 	// safety
 	this.instance_5 = new lib.Safety();
-	this.instance_5.setTransform(276.55,147.05,1,1,89.9948);
+	this.instance_5.setTransform(276.55,-12.95,1,1,89.9948);
 
 	this.instance_6 = new lib.Safety();
-	this.instance_6.setTransform(22.2,147.05,1,1,89.9948);
+	this.instance_6.setTransform(22.2,-12.95,1,1,89.9948);
 
 	this.instance_7 = new lib.Safety();
-	this.instance_7.setTransform(150.1,313.2);
+	this.instance_7.setTransform(150.1,153.2);
 
 	this.instance_8 = new lib.Safety();
-	this.instance_8.setTransform(150.1,347.75);
+	this.instance_8.setTransform(150.1,187.75);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5}]}).wait(75));
 
@@ -433,7 +433,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(137,284,176.3,316);
+p.nominalBounds = new cjs.Rectangle(137,124,176.3,476);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -443,7 +443,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/MBA315_Display_Prospecting_300x600_atlas_P_1.png?1628803523349", id:"MBA315_Display_Prospecting_300x600_atlas_P_1"}
+		{src:"images/MBA315_Display_Prospecting_300x600_atlas_P_1.png?1629141634770", id:"MBA315_Display_Prospecting_300x600_atlas_P_1"}
 	],
 	preloads: []
 };

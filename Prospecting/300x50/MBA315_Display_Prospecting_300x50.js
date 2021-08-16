@@ -438,7 +438,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/MBA315_Display_Prospecting_300x50_atlas_P_1.png?1628803467369", id:"MBA315_Display_Prospecting_300x50_atlas_P_1"}
+		{src:"images/MBA315_Display_Prospecting_300x50_atlas_P_1.png?1629141644534", id:"MBA315_Display_Prospecting_300x50_atlas_P_1"}
 	],
 	preloads: []
 };

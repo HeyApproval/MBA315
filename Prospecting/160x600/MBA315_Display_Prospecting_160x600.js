@@ -368,7 +368,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance = new lib.HEAD1();
-	this.instance.setTransform(79.4,204.05);
+	this.instance.setTransform(79.4,300.05);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
@@ -376,7 +376,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2
 	this.instance_1 = new lib.HEAD2();
-	this.instance_1.setTransform(79.4,204.05);
+	this.instance_1.setTransform(79.4,300.05);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
@@ -410,22 +410,22 @@ if (reversed == null) { reversed = false; }
 
 	// safety
 	this.instance_5 = new lib.Safety();
-	this.instance_5.setTransform(80.1,37.15);
+	this.instance_5.setTransform(80.1,-139.85);
 
 	this.instance_6 = new lib.Safety();
-	this.instance_6.setTransform(80.1,71.7);
+	this.instance_6.setTransform(80.1,-105.3);
 
 	this.instance_7 = new lib.Safety();
-	this.instance_7.setTransform(206.55,147.05,1,1,89.9948);
+	this.instance_7.setTransform(136.55,-29.95,1,1,89.9948);
 
 	this.instance_8 = new lib.Safety();
-	this.instance_8.setTransform(-47.8,147.05,1,1,89.9948);
+	this.instance_8.setTransform(22.2,-29.95,1,1,89.9948);
 
 	this.instance_9 = new lib.Safety();
-	this.instance_9.setTransform(80.1,313.2);
+	this.instance_9.setTransform(80.1,136.2);
 
 	this.instance_10 = new lib.Safety();
-	this.instance_10.setTransform(80.1,347.75);
+	this.instance_10.setTransform(80.1,170.75);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5}]}).wait(75));
 
@@ -439,7 +439,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-3,284,246.3,316);
+p.nominalBounds = new cjs.Rectangle(-3,107,246.3,493);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -449,7 +449,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/MBA315_Display_Prospecting_160x600_atlas_P_1.png?1628803501712", id:"MBA315_Display_Prospecting_160x600_atlas_P_1"}
+		{src:"images/MBA315_Display_Prospecting_160x600_atlas_P_1.png?1629141585727", id:"MBA315_Display_Prospecting_160x600_atlas_P_1"}
 	],
 	preloads: []
 };
